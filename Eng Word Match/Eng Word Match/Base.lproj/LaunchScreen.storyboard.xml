@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="rWl-AJ-V8H">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EWMLogo" translatesAutoresizingMaskIntoConstraints="NO" id="SQB-4I-a2h">
+                                <rect key="frame" x="120" y="187" width="360" height="225"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SQB-4I-a2h" secondAttribute="height" multiplier="8:5" id="nUS-7M-PdI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MM_logo_ver" translatesAutoresizingMaskIntoConstraints="NO" id="Gk8-Qb-8yQ">
+                                <rect key="frame" x="15" y="-15" width="30" height="150"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Gk8-Qb-8yQ" secondAttribute="height" multiplier="1:5" id="mVN-2G-zeH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gk8-Qb-8yQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.2" id="0B7-fL-Zl7"/>
+                            <constraint firstItem="rWl-AJ-V8H" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Pv-HH-W6F"/>
+                            <constraint firstItem="Gk8-Qb-8yQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" multiplier="0.1" id="BS5-5h-tVU"/>
+                            <constraint firstItem="SQB-4I-a2h" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CW6-Ig-1AZ"/>
+                            <constraint firstItem="SQB-4I-a2h" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="P9k-JC-Pj5"/>
+                            <constraint firstItem="SQB-4I-a2h" firstAttribute="width" secondItem="rWl-AJ-V8H" secondAttribute="width" multiplier="0.6" id="Qvu-ex-QXH"/>
+                            <constraint firstItem="rWl-AJ-V8H" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="hn6-YP-S20"/>
+                            <constraint firstItem="Gk8-Qb-8yQ" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.05" id="jmc-1Q-GU6"/>
+                            <constraint firstItem="rWl-AJ-V8H" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zGd-7r-Oxm"/>
+                            <constraint firstItem="rWl-AJ-V8H" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="zcT-lu-Q3Z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EWMLogo" width="900" height="512"/>
+        <image name="LaunchScreenBackground" width="1024" height="1024"/>
+        <image name="MM_logo_ver" width="46" height="276"/>
+    </resources>
+</document>
